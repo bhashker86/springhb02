@@ -1,0 +1,17 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+ 
+ 	<bean id="customerReportView"
+	   	class="com.common.view.CustomerReportView">
+	</bean>
+	
+	<bean id="categoryReportView"
+	   	class="com.common.view.CategoryReportView">
+	</bean>
+	
+	<bean id="productReportView"
+	   	class="com.common.view.ProductReportView">
+	</bean>
+</beans>
